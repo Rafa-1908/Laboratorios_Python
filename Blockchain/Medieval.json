@@ -1,0 +1,53 @@
+{
+    "metaverso": {
+        "nombre": "MedievalExplorers",
+        "descripcion": "Un metaverso medieval donde los usuarios exploran reinos, participan en batallas épicas y buscan tesoros ocultos. Los objetos valiosos son NFTs intercambiables.",
+        "caracteristicas": {
+            "exploracion": {
+                "entornos": ["castillos", "aldeas", "bosques", "mazmorras"],
+                "misiones": ["encontrar el santo grial", "rescatar princesas", "derrotar dragones"]
+            },
+            "interaccion": {
+                "alianzas": true,
+                "batallas_clanes": true,
+                "comercio_NFTs": true,
+                "personalizacion": {
+                    "apariencia": true,
+                    "armaduras_NFTs": true,
+                    "armas_NFTs": true,
+                    "objetos_esteticos_NFTs": true
+                }
+            },
+            "eventos": {
+                "torneos": true,
+                "eventos_especiales": true
+            }
+        },
+        "tecnologia": {
+            "plataforma": "Three.js",
+            "blockchain": {
+                "NFTs": true,
+                "propiedad_digital": true,
+                "comercio": true
+            }
+        }
+    },
+    "viabilidad": {
+        "ventajas": [
+            "Accesibilidad desde el navegador sin necesidad de instalaciones adicionales.",
+            "Flexibilidad en la creación de gráficos 3D interactivos.",
+            "Fácil integración con tecnologías web y blockchain."
+        ],
+        "desafios": [
+            "Requiere optimización para manejar gráficos complejos y evitar problemas de rendimiento.",
+            "Mayor carga de desarrollo para crear funcionalidades avanzadas comparado con Unity.",
+            "Necesidad de gestionar la escalabilidad del servidor para soportar muchos usuarios simultáneamente."
+        ],
+        "implementacion": {
+            "fase_1": "Diseño y creación de entornos 3D básicos (castillos, aldeas, bosques, mazmorras).",
+            "fase_2": "Desarrollo de interacción de usuarios y combate (alianzas, batallas, personalización).",
+            "fase_3": "Integración de NFTs y comercio dentro del metaverso.",
+            "fase_4": "Organización de eventos especiales y torneos."
+        }
+    }
+}
